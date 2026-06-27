@@ -165,9 +165,7 @@ comfa_oa_compute <- function(input_df, output_path = NULL) {
     h_c_forced <- h_c_forced * (pBaroHPA / pBaroHPA_setting)^0.55
     
     # Final hConv
-    hConv <- pmax(h_c_free, h_c_forced) # compare free vs. forced and take the bigger value as the convective heat transfer coefficient
-    hConv <- (2.67 + 6.5 * Vr^0.67) * (pBaroHPA / pBaroHPA_setting)^0.55
-    
+    hConv <- pmax(h_c_free, h_c_forced) # compare free vs. forced and take the bigger value as the convective heat transfer coefficient    
     
     # Convection
     Q_conv_bare <- hConv * (Ta - Tsk) * areaNude
