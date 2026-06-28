@@ -34,7 +34,7 @@ https://doi.org/10.1016/j.buildenv.2025.113758
 
 ### Option 2 — Use the web calculator
 
-https://comfa.shinyapps.io/10_shinnyapp/
+[https://comfa.shinyapps.io/10_shinnyapp/](https://comfa.shinyapps.io/COMFA_OA_calculator/)
 
 ---
 
